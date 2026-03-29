@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const Contact = () => {
     return (
-        <section className="w-full bg-[#0a0a0a] pt-10 pb-32 px-6 font-archivo relative overflow-hidden">
+        <section id='contact' className="w-full bg-[#0a0a0a] pt-10 pb-32 px-6 font-archivo relative overflow-hidden">
 
             {/* ELEMEN PENYAMBUNG (Diagonal Line) */}
             {/* Ini yang bikin transisi nggak kaku */}

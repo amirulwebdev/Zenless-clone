@@ -22,7 +22,7 @@ const CharacterOverdrive = () => {
     }, [index]) // Reset timer setiap kali index berubah (klik manual)
 
     return (
-        <div className="w-full h-screen bg-[#080808] relative overflow-hidden font-archivo text-white flex items-center justify-center">
+        <div id='personnel' className="w-full h-screen bg-[#080808] relative overflow-hidden font-archivo text-white flex items-center justify-center">
 
             {/* 1. BACKGROUND DYNAMIC TEXT (TEBAL & MIRING) */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">

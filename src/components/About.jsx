@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const AboutTactical = () => {
     return (
-        <div className="min-h-screen w-full bg-[#0a0a0a] text-white flex items-center justify-center p-4 md:p-10 relative overflow-hidden font-archivo">
+        <div id='about' className="min-h-screen w-full bg-[#0a0a0a] text-white flex items-center justify-center p-4 md:p-10 relative overflow-hidden font-archivo">
 
             {/* --- 1. THE GRID SYSTEM (Cyber Backdrop) --- */}
             <div className="absolute inset-0 opacity-20 bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[length:40px_40px]"></div>

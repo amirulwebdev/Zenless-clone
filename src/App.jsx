@@ -4,6 +4,7 @@ import About from './components/about'
 import Character from './components/character'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 function App() {
     return (
@@ -17,6 +18,11 @@ function App() {
                Hapus 'snap-start'. Gunakan 'min-h-screen' agar pas satu layar 
                tapi tetap fleksibel jika kontennya bertambah.
             */}
+            <main className="bg-[#0a0a0a]">
+                <Navbar />
+                {/* Hero, About, Character, Contact, Footer... */}
+            </main>
+
             <section className="min-h-screen w-full">
                 <Hero />
             </section>
