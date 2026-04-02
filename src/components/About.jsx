@@ -78,7 +78,7 @@ const AboutTactical = () => {
                             <span className="text-zzz-yellow font-black text-xs tracking-widest uppercase italic">Operational Dossier</span>
                         </div>
 
-                        <h2 className="text-6xl md:text-9xl font-black italic leading-[0.8] tracking-tighter uppercase">
+                        <h2 className="text-6xl md:text-8xl font-black italic leading-[0.8] tracking-tighter uppercase">
                             NEPS <br />
                             <span className="text-zzz-yellow">OVERDRIVE</span>
                         </h2>
