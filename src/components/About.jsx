@@ -83,7 +83,7 @@ const AboutTactical = () => {
                         </div>
 
                         {/* PERBAIKAN MOBILE: Font size dikecilkan dari 8xl ke 5xl (mobile) agar tidak overflow layar */}
-                        <h2 className="text-5xl md:text-8xl font-black italic leading-[0.9] tracking-tighter uppercase">
+                        <h2 className="text-4xl md:text-8xl font-black italic leading-[0.9] tracking-tighter uppercase">
                             NEPS <br />
                             <span className="text-zzz-yellow">OVERDRIVE</span>
                         </h2>
